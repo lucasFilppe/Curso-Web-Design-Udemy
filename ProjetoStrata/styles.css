@@ -1,0 +1,166 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    line right: 2;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4,h5, h6{
+    color: #787878;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+   font-size: 30px;
+
+}
+
+h3{
+    font-size:  26px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+h5{
+    font-size: 18px;
+
+}
+h6{
+    font-size: 15px;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style: inside;
+}
+
+.main-header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 35%;
+    padding: 75px 34px;
+    box-sizing: border-box;
+    background-image: url(./images/bg.jpg);
+    background-size: auto, cover;
+    background-position: left top;
+}
+
+/*conteudo principal ==============*/
+.main-header-title{
+    font-size: 28px;
+    line-height: 1.5;
+    color: aliceblue;
+    font-weight: normal;
+    text-align: right;
+}
+
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 75px 34px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+/*.main-content-section{
+    border: 1px solid black;
+}*/
+
+
+.main-header-link{
+    color: blue;
+}
+
+.main-header-link:hover{
+    color: blue;
+}
+
+/*listas e icones ===============*/
+.ul-alternate{
+    list-style-type: none;
+
+}
+
+.ul-alternate li{
+    border-bottom: 1px solid #ccc;
+}
+
+.ul-icons{
+    list-style-type: none;
+    
+}
+
+.ul-icons li{
+
+    display: inline-block;
+    color: aquamarine;
+    font-size: 2em;
+}
+
+/*Grid======================*/
+.row{
+    overflow: auto;
+}
+
+.col-2{
+    width: 50%;
+    float: left
+}
+.col-2-3{
+    
+    width:66%;
+    float: left;
+}
+
+.col-1-3{
+  
+    width: 31%;
+    float: left;
+
+}
+.col-1-3:nth-child(2){
+    margin-left: 0 2%;
+}
+
+/*butoes e links ==========*/
+.button-default{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    color: #1C1C1C;
+    text-overflow: none;
+   
+}
+
+/*Tabela ====================*/
+.table{
+    width: 100%;
+    margin: 0 0 2em 0;
+    border: 1px solid #666;
+}
+
+.table td{
+    padding: .75em;
+
+}
+
+.table th{
+    background: rgb(87, 85, 85);
+    border: 1px solid #666;
+}
+
+.imagem link{
+    border: 0;
+}
+
